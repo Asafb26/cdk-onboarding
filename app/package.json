@@ -1,0 +1,25 @@
+{
+  "name": "tres-onboarding",
+  "version": "1.0.0",
+  "description": "onboarding to tres",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Asaf",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1126.0",
+    "express": "^4.18.1",
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.31",
+    "typescript": "^4.6.4"
+  }
+}
